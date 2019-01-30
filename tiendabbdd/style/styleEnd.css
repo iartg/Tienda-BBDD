@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+    background-color: #006E6D;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+
+/* Estilos header */
+
+.top {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.title img{
+    width: 170px;
+    font-size: 20px;
+    position: relative;
+    left: 500px;
+    bottom: 6px;
+} 
+
+.back {
+    left: 810px;
+    top: 10px;
+    display: inline;
+    position: relative;
+}
+
+.back img {
+    width: 60px;
+    display: inherit;
+}
+
+.back {
+    text-decoration: none;
+    font-size: 12px;
+    color: #006E6D;
+    font-weight: bold;
+}
+
+/* Estilo cuerpo */
+
+.container {
+    width: 1200px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    min-height: 400px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+/* Estilo cerrar sesión */
+
+.container p {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.container a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #006E6D;
+}
+
+.container a:hover {
+    color: #009996;
+    text-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}

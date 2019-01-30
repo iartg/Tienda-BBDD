@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+    background-color: #006E6D;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+
+/* Estilos header */
+
+.top {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.title .logo{
+    width: 170px;
+    font-size: 20px;
+    position: relative;
+    left: 500px;
+    bottom: 6px;
+} 
+
+.back {
+    left: 810px;
+    top: 10px;
+    display: inline;
+    position: relative;
+}
+
+.back img {
+    width: 60px;
+    display: inherit;
+}
+
+.back {
+    text-decoration: none;
+    font-size: 12px;
+    color: #006E6D;
+    font-weight: bold;
+}
+
+.sessionName {
+    display: inline;
+    position: relative;
+    right: 110px;
+    bottom: 0px;
+}
+
+.sessionName .sesion{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    top: 15px;
+    font-size: 12px;
+}
+
+.sessionName .user{
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #006E6D;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 20px;
+    position: relative;
+    top: 9px; 
+    right: 3px;
+}
+
+.sessionName .user:hover{
+    color: #FFFFFF;
+    background-color: #009996;
+    font-size: 16px;
+}
+
+/* Estilo cuerpo */
+
+.container {
+    width: 1200px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    min-height: 400px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    overflow: auto;
+    position: relative;
+    top: 123px;
+}
+
+/* Estilo tabla */
+
+.info {
+    width: 30px;
+    cursor: pointer;
+}
+
+.info:hover {
+    width: 35px;
+}
+
+.compras {
+    padding: 5px 10px;
+    width: 1000px;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.compras th {
+    text-transform: uppercase;
+    border-bottom: 1px solid #006E6D;
+    background-color: rgba(4, 153, 151, 0.795);
+}
+.compras tr:hover {
+    background-color: rgba(4, 153, 151, 0.445);
+}
+
+/* Estilo div compras */
+
+#compra {
+    top: 158px;
+    right: 12%;
+    margin-top: -130px;
+    margin-left: -30%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#compra img {
+    width: 100px;
+}
+
+#compra table {
+    width: 900px;
+    text-align: center;
+    font-size: 16px;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+#compra .close {
+    float: right;
+    width: 32px;
+    cursor: pointer;
+}
+
+#compra .close:hover {
+    border-radius: 36px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#compra th {
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+#compra tr {
+    background-color: #FFFFFF;
+}
+
+#compra td {
+    border: 1px solid #006E6D;
+}
+
+#compra tr td:first-child {
+    white-space: normal;
+}
+
+#compra tr:last-child td {
+    background-color: #006E6D;
+    color: #FFFFFF;
+    padding: 2px 10px;
+    font-size: 28px;
+    font-weight: bold;
+    border: 1px solid black;
+    white-space: nowrap;
+}
